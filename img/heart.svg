@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg963"
+   sodipodi:docname="heart.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata969">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs967" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1426"
+     inkscape:window-height="910"
+     id="namedview965"
+     showgrid="false"
+     inkscape:zoom="1.3037281"
+     inkscape:cx="348.49399"
+     inkscape:cy="231.57499"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg963" />
+  <path
+     d="M 132.14062 31.974609 C 102.77993 32.284277 73.674219 42.168359 49.699219 62.599609 C -13.100781 116.19961 -16.399219 212.4 39.800781 270.5 L 233.30078 470.30078 C 245.80078 483.20078 266.09961 483.20078 278.59961 470.30078 L 472.09961 270.5 C 528.39961 212.4 525.10078 116.19961 462.30078 62.599609 C 407.50078 15.899609 325.99922 24.299219 275.69922 76.199219 L 256 96.5 L 236.30078 76.199219 C 208.06328 47.005469 169.89009 31.576465 132.14062 31.974609 z M 148.86328 68.40625 C 181.7493 68.072522 215.00398 81.006142 239.60352 105.47656 L 256.76562 122.49219 L 273.92773 105.47656 C 317.74734 61.973593 388.74842 54.933836 436.48828 94.078125 C 491.19746 139.00604 494.07199 219.64196 445.02539 268.3418 L 276.45508 435.81445 C 265.56552 446.62732 247.87979 446.62732 236.99023 435.81445 L 68.419922 268.3418 C 19.460437 219.64196 22.335746 139.00604 77.044922 94.078125 C 97.931111 76.952499 123.28527 68.665816 148.86328 68.40625 z "
+     id="path961"
+     style="fill:#f4661b;fill-opacity:1" />
+</svg>

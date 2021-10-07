@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 384 512"
+   version="1.1"
+   id="svg5025"
+   sodipodi:docname="map-marker-light.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata5031">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5029" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1900"
+     inkscape:window-height="1048"
+     id="namedview5027"
+     showgrid="false"
+     inkscape:zoom="1.6"
+     inkscape:cx="192"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5025" />
+  <path
+     d="M 192 0 C 85.961 0 0 85.961 0 192 C -1.8947806e-014 269.413 26.969578 291.03092 172.26758 501.66992 C 181.80158 515.44292 202.19742 515.44392 211.73242 501.66992 C 357.03042 291.03092 384 269.413 384 192 C 384 85.961 298.039 0 192 0 z M 192 25.210938 C 283.71407 25.210938 358.0625 101.30824 358.0625 195.17969 C 358.0625 263.70985 334.73594 282.84741 209.06641 469.31641 C 200.81951 481.5099 183.17963 481.50901 174.93359 469.31641 C 49.264066 282.84741 25.9375 263.70985 25.9375 195.17969 C 25.9375 101.30824 100.28593 25.210938 192 25.210938 z "
+     id="path5023"
+     style="fill:#f4661b;fill-opacity:1" />
+</svg>

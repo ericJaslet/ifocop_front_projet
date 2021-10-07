@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Actualités | Silver</title>
+
+    <meta name="description" content="Retrouver les 15 dernières actualités du secteur e-commerce. Mais aussi sur ce qui vous attends prochainement avec votre boutique Silver." />
+    <meta name="keywords" content="boutique,magasin,commerce,shop,shopping,vetements,vêtements,vetement,vêtement,look,ecommerce,@commerce,e-commerce,vente en ligne,mode,tendance,personal shopper,centre ville,paris,Ile de France,2ème arrondissement">
+
+    <!-- pour les réseaux sociaux -->
+    <meta property="og:site_name" content="Silver"/>
+    <meta property="og:title" content="Accueil Silver" />
+    <meta property="og:type" content="Accueil" />
+    <meta property="og:url" content="http://www.boutique-silver.fr" />
+    <meta property="og:image" content="http://www.boutique-silver.fr/img/logo-final-c.png" />
+    <meta property="og:description" content="Bienvenue chez silver. Découvrez les dernières tendances mode pour les femmes et les hommes, vêtements, chaussures et accessoires créés pour vous." />
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- pour protection contre le duplicate content dans le site -->
+    <link rel="canonical" href="https://www.boutique-silver.fr/index.html"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <!--=================================================================================================
+    =====================================================================================================
+
+                                        Header
+
+    =====================================================================================================
+    ==================================================================================================-->
+    <header>
+        <div class="container">       
+            <div class="row">              
+                <div class="header-left col-12 col-sm-4">
+                    
+                    <p class="d-md-none header-logo-lang txt-italic"><a href="#">Français</a> | <a href="#">English</a></p>
+                    <div class="clear"></div>
+
+                    <form method="get" class="header-form-rech">
+                        <input type="text" placeholder="  recherche"  required>
+                        <button type="submit" class="color2-btn color-btn-hover">OK</button>
+                    </form>
+
+                </div>
+                <div class="header-middle col-12 col-sm-4">
+                        <a href="index.html"><img src="img/nom1.png" alt="silver" class="img-marque"></a>
+                        <h1 class="h1-index">Silver</h1>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="langue">
+                        <p class="txt-right d-none d-md-block txt-italic"><a href="#">Français</a> | <a href="#">English</a></p>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="user-band">                      
+                        <a href="compte.html" class="mx-2"><img src="img/user.svg" alt="mon compte"></a>
+                        <a href="favoris.html" class="mx-2"><img src="img/heart.svg" alt="mes favories"></a>
+                        <a href="panier.html" class="mx-2"><img src="img/shopping_bag_H50px.png" alt="panier"></a>
+                        <a href="localisation.html" class="mx-2"><img src="img/map-marker-alt.svg" alt="boutique silver"></a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+            <nav>
+                <!-- menu responsive -->
+                <div class="m_div-respbar">
+                <div class="container-bar" onclick="button_transform(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+
+                <div id="myNav" class="overlay">
+                    <div class="overlay-content">
+                        <ul class="bmenu-niv1">
+                            <li>
+                                <div class="div-resp-search">
+                                    <form method="get" class="header-form-rech">
+                                        <input type="text" placeholder="  recherche" required>
+                                        <button type="submit" class="color-btn color-btn-hover">Go</button>
+                                    </form>
+                                </div>
+                            </li>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="gallery_produits.html">Nos produits</a></li>
+                            <li><a href="gallery_gammes.html">Toutes les gammes</a></li>
+                            <li><a href="">Hommes</a>
+                                <ul class="bmenu-niv2">
+                                    <li><a href="gallery_homme.html"> les gammes hommes</a></li>
+                                    <li><a href="gallery_homme_t-shirt.html">T-shirt, débardeur</a></li>
+                                    <li><a href="gallery_homme_chemise.html">Chemise</a></li>                               
+                                    <li><a href="gallery_homme_short.html">Short, bermuda</a></li>
+                                    <li><a href="gallery_homme_jean.html">Jean, pantalon</a></li>
+                                    <li><a href="gallery_homme_pull.html">Pull, sweat, gilet</a></li>
+                                    <li><a href="gallery_homme_manteau.html">Manteau, blouson</a></li>
+                                    <li><a href="gallery_homme_maillot.html">Maillot de bain</a></li>
+                                    <li><a href="gallery_homme_chaussures.html">Chaussures</a></li>
+                                    <li><a href="gallery_homme_bonnet.html">Bonnet</a></li>
+                                    <li><a href="gallery_homme_accessoires.html">Accessoires</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Femmes</a>
+                                <ul class="bmenu-niv2">
+                                    <li><a href="gallery_femme.html"> les gammes femme</a></li>
+                                    <li><a href="gallery_femme_maillot.html">Maillot de bain</a></li>
+                                    <li><a href="gallery_femme_robe.html">Robe, Jupe</a></li>
+                                    <li><a href="gallery_femme_t-shirt.html">T-shirt, top, débardeur</a></li>
+                                    <li><a href="gallery_femme_short.html">Short, pantacourt</a></li>
+                                    <li><a href="gallery_femme_pull.html">Pull, sweat, gilet</a></li>
+                                    <li><a href="gallery_femme_veste.html">Veste, manteau</a></li>
+                                    <li><a href="gallery_femme_jean.html">Jean</a></li>
+                                    <li><a href="gallery_femme_pantalon.html">Pantalon et Legging</a></li>
+                                    <li><a href="gallery_femme_chaussures.html">Chaussures</a></li>
+                                    <li><a href="gallery_femme_sac.html">Sac</a></li>
+                                    <li><a href="gallery_femme_accessoires.html">Accessoires</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="réservation.html">Réservation</a></li>
+                            <li><a href="avis.html">Avis</a></li>
+                            <li><a>Boutique</a>
+                                <ul class="bmenu-niv2">
+                                    <li><a href="qui.html">Qui sommes nous ?</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="recrutement.html">Recrutement</a></li>
+                                    <li><a href="Evènement.html">Evénements</a></li>
+                                    <li><a href="presse.html">Presse</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="actualites.html">Actualités</a></li>                   
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <!-- fin menu responsive -->
+                <div class="table">
+                    <ul class="menu-niv-1">
+                        <li>
+                            <a href="index.html">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="" id="nos_produits">Nos produits</a>
+                        <li>
+                            <a href="réservation.html">Réservation</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="avis.html">Avis</a>
+                        </li>
+                        <li>
+                            <a href="" id="boutique">Boutique</a>
+                        </li>
+                        <li>
+                            <a href="actualites.html">Actualités</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div class="nav-bloc container" id="bloc-nav">
+                        <ul class="menu_niv_2">
+                            <li><a href="gallery_gammes.html">toutes nos gammes</a></li>
+                            <li><a href="gallery_femme.html" id="select-femme">femme</a></li>
+                            <li><a href="gallery_homme.html" id="select-homme">homme</a></li>
+                            <li><a href="gallery_produits.html">Tous nos produits</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                        <div class="menu_niv_3" id="menu-div-3-femme">
+                            <div class="row">
+                                <div class="col-3">
+                                    <ul>
+                                        <li><a href="gallery_femme.html"> les gammes femme</a></li>
+                                        <li><a href="gallery_femme_maillot.html">Maillot de bain</a></li>
+                                        <li><a href="gallery_femme_robe.html">Robe, Jupe</a></li>
+                                        <li><a href="gallery_femme_t-shirt.html">T-shirt, top, débardeur</a></li>
+                                        <li><a href="gallery_femme_short.html">Short, pantacourt</a></li>
+                                        <li><a href="gallery_femme_pull.html">Pull, sweat, gilet</a></li>
+                                        <li><a href="gallery_femme_veste.html">Veste, manteau</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-3">
+                                    <ul>
+                                        <li><a href="gallery_femme_jean.html">Jean</a></li>
+                                        <li><a href="gallery_femme_pantalon.html">Pantalon et Legging</a></li>
+                                        <li><a href="gallery_femme_chaussures.html">Chaussures</a></li>
+                                        <li><a href="gallery_femme_sac.html">Sac</a></li>
+                                        <li><a href="gallery_femme_accessoires.html">Accessoires</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row m-div-img">
+                                        <div class="col-1"></div>
+                                        <div class="col-2">
+                                            <a href="article_femme_short_1.html">
+                                                <img src="img/femme/short/short_1/short-a-carreaux-vichy-noir-femme-wc-1.jpg" alt="short-a-carreaux-vichy-noir-femme-wc" class="img-fluid img-menu-bloc">
+                                            </a>
+                                            <p>short</p>
+                                            <p>9,99€</p>
+                                        </div>
+                                        <div class="col-2"></div>
+                                        <div class="col-2">
+                                            <a href="article_femme_short_2.html">
+                                                <img src="img/femme/short/short_2/short-en-denim-a-abrasion-double-stone-femme-1.jpg" alt="short-en-denim-a-abrasion-double-stone-femme-1" class="img-fluid img-menu-bloc">
+                                            </a>
+                                            <p>short</p>
+                                            <p>15,00€</p>
+                                        </div>
+                                        <div class="col-2"></div>
+                                        <div class="col-2">
+                                            <a href="article_femme_ceinture_2.html">
+                                                <img src="img/femme/ceinture/ceinture_1/ceinture-brodee-noir-femme-we-1.jpg" alt="ceinture-brodee-noir-femme-we-1" class="img-fluid img-menu-bloc">
+                                            </a>
+                                            <p>ceinture</p>
+                                            <p>12,00€</p>
+                                        </div>
+                                    </div>
+                                </div>                               
+                            </div>                           
+                        </div>
+                        <div class="menu_niv_3" id="menu-div-3-homme">
+                            <div class="row">
+                                <div class="col-3">
+                                    <ul>
+                                        <li><a href="gallery_homme.html"> les gammes hommes</a></li>
+                                        <li><a href="gallery_homme_t-shirt.html">T-shirt, débardeur</a></li>
+                                        <li><a href="gallery_homme_chemise.html">Chemise</a></li>                               
+                                        <li><a href="gallery_homme_short.html">Short, bermuda</a></li>
+                                        <li><a href="gallery_homme_jean.html">Jean, pantalon</a></li>
+                                        <li><a href="gallery_homme_pull.html">Pull, sweat, gilet</a></li>
+                                        <li><a href="gallery_homme_manteau.html">Manteau, blouson</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-3">
+                                    <ul>
+                                        <li><a href="gallery_homme_maillot.html">Maillot de bain</a></li>
+                                        <li><a href="gallery_homme_chaussures.html">Chaussures</a></li>
+                                        <li><a href="gallery_homme_bonnet.html">Bonnet</a></li>
+                                        <li><a href="gallery_homme_accessoires.html">Accessoires</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row m-div-img">
+                                        <div class="col-1"></div>
+                                        <div class="col-2">
+                                            <a href="article_homme_t-shirt_3blc.html">
+                                                <img src="img/homme/t-shirt/t-shirt_3/t-shirt-regular-uni-en-jersey-blanc-homme-1.jpg" alt="t-shirt-regular-uni-en-jersey-blanc-homme" class="img-fluid img-menu-bloc">
+                                            </a>
+                                            <p>T-shirt</p>
+                                            <p>6,00€</p>
+                                        </div>
+                                        <div class="col-2"></div>
+                                        <div class="col-2">
+                                            <a href="article_homme_chemise_2.html">
+                                                <img src="img/homme/chemise/chemise_2/chemise-regular-en-lin-et-coton-bleu-marine-homme-vy-1.jpg" alt="chemise-regular-en-lin-et-coton-bleu-marine-homme" class="img-fluid img-menu-bloc">
+                                            </a>
+                                            <p>chemise</p>
+                                            <p>10,00€</p>
+                                        </div>
+                                        <div class="col-2"></div>
+                                        <div class="col-2">
+                                            <a href="article_homme_jean_1.html">
+                                                <img src="img/homme/jean/jean_1/jean-skinny-destroy-effet-froisse-blanc-homme-wi-1.jpg" alt="img/homme/jean-skinny-destroy-effet-froisse-blanc-homme-wi-1" class="img-fluid img-menu-bloc">
+                                            </a>
+                                            <p>jean skinny</p>
+                                            <p>27,00€</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                  
+                    </div>
+                    <div class="nav-bloc2 container" id="bloc-nav2">
+                        <ul>
+                            <li><a href="qui.html">Qui sommes nous ?</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="recrutement.html">Recrutement</a></li>
+                            <li><a href="Evènement.html">Evénements</a></li>
+                            <li><a href="presse.html">Presse</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </header>  
+
+    <!--=================================================================================================
+    =====================================================================================================
+
+                                        corps
+
+    =====================================================================================================
+    ==================================================================================================-->
+    <main class="container m_mb-20">
+
+        <div class="path">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li> > Actualités</li>
+            </ul>
+        </div>
+
+       <h1 class="h1-center">Actualités</h1>
+
+       <p class="txt-center m_mt-20">Retrouvez toute l'actualité de l'e-commerce</p>
+
+        <div class="m_mt-70">
+
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/actualites/pilliers.jpg" alt="5 pilliers" class="img-fluid">
+                </div> 
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">Les 5 piliers du moteur de recherche interne pour l'e-commerce</h2>
+                    <p>Dans un magasin, un client arpentera les allées en se laissant guider par le rayonnage et la signalétique jusqu’à trouver le produit recherché. S’il ne le trouve pas, alors il se dirigera vers un vendeur pour lui demander un conseil ou l’emplacement. Sur un site e-commerce, sa démarche est la même : il navigue d’abord dans l’arborescence et, systématiquement, s’il ne trouve pas ce qu’il veut dans votre plan de classement, il a recours au moteur de recherche interne. Ce dernier occupe donc une place centrale et doit répondre à cinq grands besoins. Voici les 5 grands piliers que les moteurs de recherche doivent relever.</p>
+                    <a href="https://www.journaldunet.com/ebusiness/expert/69143/les-5-piliers-du-moteur-de-recherche-interne-pour-les-e-commercants.shtml">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/actualites/croissance.jpg" alt="flèche croissante" class="img-fluid">
+                </div>
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">Le chiffre d'affaire du e-commerce croît de 13% au 1er trimestre</h2>
+                    <p>Au premier trimestre 2018, les Français ont dépensé en ligne 22,3 milliards d'euros au total, selon la Fédération du e-commerce et de la vente à distance (Fevad) qui a publié son étude trimestrielle référente sur la base des données collectées auprès de 100 sites marchands leaders et neuf plateformes sécurisées de paiement. L'e-commerce hexagonal a affiché une croissance de 13% sur un an, une performance comparable à celle du premier trimestre 2017, où la croissance avait atteint 13,5%.</p>
+                    <a href="https://www.journaldunet.com/ebusiness/commerce/1172030-chiffre-d-affaires-e-commerce-france">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/actualites/adobe.jpg" alt="logo Adobe" class="img-fluid">
+                </div>
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">Adobe casse la tirelire pour s'offrir Magento</h2>
+                    <p>Adobe a racheté pour 1,7 milliard de dollars, la plateforme qui propose toutes les solutions techniques et marketing pour la conception et la gestion de sites marchands.</p>
+
+                    <a href="https://www.zdnet.fr/actualites/e-commerce-adobe-casse-sa-tirelire-pour-s-offrir-magento-commerce-39868464.htm">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/actualites/amazon.jpg" alt="logo Amazon" class="img-fluid">
+                </div>
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">Monoprix et Amazon main dans la main</h2>
+                    <p>Le géant du e-commerce américain s'est entendu avec l'enseigne Monoprix qui vendra ses références aux clients Prime Now sur Paris et sa proche banlieue.</p>
+                    <a href="https://www.zdnet.fr/actualites/monoprix-arrive-sur-amazon-39866036.htm">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/nom.png" alt="logo nom Silver" class="img-fluid">
+                </div>
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">Silver est prêt pour l'été.</h2>
+                    <p>La boutique silver sur Paris a mis en place sa collection pour l'été. La boutique vous propose une toute nouvelle collection qui ravira elle comme lui pour faire la tendance pendant les beaux jours.</p>
+                    <a href="">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/actualites/amazon.jpg" alt="img-test" class="img-fluid">
+                </div>
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">YouTube : le streaming de la discorde entre Amazon et Google</h2>
+                    <p>Les deux concurrents s'écharpent au sujet du support de YouTube. Google bloque l'accès aux utilisateurs d'Echo Show et Fire TV d'Amazon. Google exige de la réciprocité de son rival, qui ne propose pas certains de ses services aux utilisateurs Google, mais aussi plusieurs produits, y compris Nest.</p>
+                    <a href="https://www.zdnet.fr/actualites/youtube-le-streaming-de-la-discorde-entre-amazon-et-google-39861148.htm">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/actualites/amazon.jpg" alt="flèche croissante" class="img-fluid">
+                </div>
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">Les clients Amazon renvoyant trop de colis peuvent être bannis</h2>
+                    <p>La politique ne figure pas noir sur blanc, mais Amazon se réserve cependant le droit de refuser certains clients, trop adeptes selon le géant du e-commerce des retours gratuits et des remboursements.</p>
+                    <a href="https://www.zdnet.fr/actualites/les-clients-amazon-renvoyant-trop-de-colis-peuvent-etre-bannis-39868606.htm">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/actualites/amazon.jpg" alt="flèche croissante" class="img-fluid">
+                </div>
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">Nouveau Marketplace Appstore pour Amazon et les vendeurs pros</h2>
+                    <p>Amazon avait déjà sa boutique d'applications. Il en a une seconde, mais destinée à d'autres utilisateurs. Pour Amazon, il s'agit de travailler plus étroitement avec les développeurs d'outils de vente pour les vendeurs tiers de sa marketplace.</p>
+                    <a href="https://www.zdnet.fr/actualites/nouveau-marketplace-appstore-pour-amazon-et-les-vendeurs-pros-39868482.htm">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/actualites/actualite-Meituan.jpg" alt="flèche croissante" class="img-fluid">
+                </div>
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">Meituan officialise son introduction en Bourse et vise une valorisation de 60 milliards de dollars</h2>
+                    <p>La nouvelle a été annoncée la nuit du 24 au 25 juin : Meituan, la licorne chinoise, fera son entrée en Bourse à la rentrée 2018. Elle en espère beaucoup, dont une levée de fonds à 4 milliards de dollars, et une valorisation de 60 milliards de dollars. La start-up chinoise de vente en ligne Meituan a annoncé le 25 juin qu'elle fera son introduction en Bourse à Hong-Kong en septembre 2018.</p>
+                    <a href="https://www.usine-digitale.fr/editorial/meituan-officialise-son-introduction-en-bourse-a-la-rentree-2018-et-vise-une-valorisation-de-60-milliards-de-dollars.N711584">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/actualites/ecommerce.jpeg" alt="flèche croissante" class="img-fluid">
+                </div>
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">Instagram, Facebook, Snapchat... L'e-commerce s'installe (aussi) sur les réseaux sociaux</h2>
+                    <p>Depuis plusieurs mois, Facebook, Snapchat et Instagram multiplient les annonces en matière de publicité et d’achat en ligne pour attirer les marques. Quelles sont les dernières nouveautés, et qu’en pensent les consommateurs ? La tendance au shopping en ligne se développe, et les réseaux sociaux l'ont bien compris. Snapchat a passé un partenariat avec Seat Geek pour que les utilisateurs puissent […]</p>
+                    <a href="https://www.usine-digitale.fr/article/instagram-facebook-snapchat-l-e-commerce-s-intalle-aussi-sur-les-reseaux-sociaux.N706459">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/actualites/paypal.jpg" alt="flèche croissante" class="img-fluid">
+                </div>
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">PayPal poursuit ses emplettes avec les acquisitions de Hyperwallet et Simility</h2>
+                    <p>PayPal ne cesse de voir plus loin. Au total, l'entreprise de service de paiement en ligne a déboursé 520 millions de dollars cette semaine pour les rachats de Simility, entreprise spécialisée dans la prévention de la fraude et la gestion des risques, et d'Hyperwallet, une plateforme multi-devise globale. Deux acquisitions qui s'ajoutent à celle d'iZettle en mai 2018.</p>
+                    <a href="https://www.usine-digitale.fr/article/paypal-poursuit-ses-emplettes-avec-les-acquisitions-de-hyperwallet-et-simility.N710684">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/actualites/google-home-tesco.jpg" alt="google-home-tesco" class="img-fluid">
+                </div>
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">Grande distribution et numérique : réflexions d’un juriste</h2>
+                    <p>Cette semaine, Pascal Agosti, avocat associé du cabinet Caprioli & Associés, apporte son éclairage juridique sur les enjeux des retailers face à l'essor du numérique Le plan social de Carrefour 2018 constitue l’une des principales manifestations de la révolution profonde que subit la grande distribution depuis l’essor du e-commerce. Le Numérique a révolutionné les pratiques du secteur. En effet, […] Grande distribution et numérique : réflexions d’un juriste</p>
+                    <a href="https://www.usine-digitale.fr/article/grande-distribution-et-numerique-reflexions-d-un-juriste.N710394">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/actualites/fevad-start-me-up.jpg" alt="flèche croissante" class="img-fluid">
+                </div>
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">[Challenge Start me up 2018] Top 5 des start-up e-commerce les plus innovantes</h2>
+                    <p>Pour la deuxième année consécutive, le Challenge Start me up, organisé par la Fevad et KPMG, a récompensé ce mercredi 20 juin 2018 les start-up présentant la solution la plus innovante du secteur e-commerce. Cinq finalistes ont été sélectionnés parmi 57 dossiers reçus. Voici le classement. 1 - OneStock OneStock est une start-up française qui propose une solution d’agrégation des stocks pour […]Top 5 des start-up e-commerce les plus innovantes</p>
+                    <a href="https://www.usine-digitale.fr/article/challenge-start-me-up-2018-top-5-des-start-up-e-commerce-les-plus-innovantes.N709694">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/actualites/marc-lolivier-fevad.jpg" alt="flèche croissante" class="img-fluid">
+                </div>
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">"L’Intelligence artificielle va révolutionner le commerce", Marc Lolivier, Fevad</h2>
+                    <p>Entretien La Fevad organise la 7e édition des Enjeux e-commerce ce 20 juin 2018 au Medef. Avec un fil rouge : l’intelligence artificielle. Que va-t-elle changer ? Comment les retailers doivent-ils réagir ? Les réponses de Marc Lolivier, délégué général de la Fevad. Quels sont les nouveaux enjeux du e-commerce ? Marc Lolivier : Pour moi, l’enjeu essentiel, c’est la montée en puissance de la concurrence aussi […]L’Intelligence artificielle va révolutionner le commerce, Marc Lolivier, Fevad</p>
+                    <a href="https://www.usine-digitale.fr/article/l-intelligence-artificielle-va-revolutionner-le-e-commerce-marc-lolivier-fevad.N709394">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="presse_floor">
+                <div class="presse_img">
+                    <img src="img/actualites/nomagic-ai.jpg" alt="nomagic-ai" class="img-fluid">
+                </div>
+                <div class="m_ml-20">
+                    <h2 class="h-sz-2em">Au Warehouse de Cdiscount, cinq start-up inventent la logistique 4.0</h2>
+                    <p>Cobots, chariots autonomes, réalité virtuelle… Dans son incubateur baptisé The Warehouse, Cdiscount s'entoure de start-up pour expérimenter des technologies de pointe et co-construire de nouvelles solutions. L'e-commerçant cherche à la fois à gagner en productivité et à diminuer la pénibilité du travail de ses opérateurs. Pour ne pas se laisser distancer, Cdiscount s'est lancé dans une course à […] Au Warehouse de Cdiscount, cinq start-up inventent la logistique 4.0</p>
+                    <a href="https://www.usine-digitale.fr/article/au-warehouse-de-cdiscount-cinq-start-up-inventent-la-logistique-4-0.N708449">Continuer la lecture</a>
+                    <div class="presse_partage">
+                        <p>Partagez</p>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.boutique-silver.fr/actualites.html">
+                            <img src="img/facebook.svg" alt="facebook" class="m_h-40">
+                        </a>
+                        <a href="https://twitter.com/intent/tweet/?url=https://www.boutique-silver.fr/actualites.html&text=Bienvenue_chez_silver._Découvrez_les_dernières_tendances_mode_pour_les_hommes_et_les_femmes,_vêtements,_chaussures_et_accessoires_créés_pour_vous.">
+                            <img src="img/twitter-square.svg" alt="twitter" class="m_h-40">
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            
+        </div>
+    </main> <!-- Fin du container global -->
+    <!--=================================================================================================
+    =====================================================================================================
+
+                                        Footer
+
+    =====================================================================================================
+    ==================================================================================================-->
+    <footer class="m_mt-15">
+        <div class="container">
+        <div class="footer-floor-1">
+            <p>Follow us !</p>
+            <div>
+                <a href="https://fr-fr.facebook.com/"><img src="img/facebook.svg" alt="facebook"></a>
+                <a href="https://twitter.com/?lang=fr"><img src="img/twitter-square.svg" alt="twitter"></a>
+                <a href="https://plus.google.com/discover"><img src="img/google-plus-square.svg" alt="google-plus"></a>
+                <a href="https://www.youtube.com/?gl=FR&hl=fr"><img src="img/youtube-square.svg" alt="youtube"></a>
+                <a href="https://www.instagram.com/?hl=fr"><img src="img/instagram.svg" alt="instagram"></a>
+                <a href="https://www.pinterest.fr"><img src="img/pinterest-square.svg" alt="pinterest"></a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-floor-2">
+            <h2 class="txt-center">S'incrire à notre newletter</h2>
+            <p class="txt-center">Recevez des informations hebdomadaires sur : les nouveaux arrivages, les dernières tendances, les évènements, et plus encore avec silver.</p>
+            <div class="div-footer-form mx-auto">
+                <form method="get">
+                    <input type="text" placeholder="votre @mail" class="m_form mx-auto" name="email-news">
+                    <button type="submit" class="btn2 mx-auto m_mt-20 pointer color-btn-hover">OK</button>
+                </form>
+            </div>
+        </div>
+        <hr>      
+        <div class="row footer-floor-3">                      
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div>
+                    <h5>Contacter Silver</h5>
+                    <p>01 01 01 01 01</p>
+                    <p>(appel gratuit)</p>
+                    <p>Nous répondons à vos questions du lundi au vendredi de 9h00 à19h00 et le samedi de 10h à 19h</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div>
+                    <h5>A propos de Silver</h5>
+                    <ul>
+                        <li><a href="la-marque.html">La marque</a></li>
+                        <li><a href="recrutement.html">Le recrutement</a></li>
+                        <li><a href="presse.html">La presse</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div>
+                    <h5>Services de Silver</h5>
+                    <ul>
+                        <li><a href="compte.html">Suivi de commande</a></li>
+                        <li><a href="réservation.html">Réservation</a></li>
+                        <li><a href="moyen-de-paiement.html">Moyen de paiement</a></li>
+                        <li><a href="newsletter.html">S'inscrire à notre newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div>
+                    <img src="img/map-marker-alt.svg" alt="localisation" class="m_h-40 img-local-float">
+                    <h5>Vote magasin Silver</h5>
+                    <p class="m_mt-20">Localiser votre magasin le plus proche de chez vous.</p>
+                    <a href="localisation.html" class="m_ml-20">Localiser</a>
+                </div>  
+            </div>
+        </div>
+        <hr>
+        <div class="footer-floor-4">
+            <h5>Paiement sécurisé</h5>
+            <a href="moyen-de-paiement.html">
+                <div>
+                    <img src="img/credit-card.svg" alt="carte de credit">
+                    <img src="img/cc-visa.svg" alt="carte visa">
+                    <img src="img/cc-mastercard.svg" alt="mastercard">
+                    <img src="img/cc-amex.svg" alt="carte american express">
+                    <img src="img/cc-paypal.svg" alt="pay amazone">
+                    <img src="img/cc-amazon-pay.svg" alt="pay amazone">
+                </div>
+            </a>
+        </div>
+        <hr>
+        <div class="row">         
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="condition-general-de-vente.html#donnees-personnel">Données personnelles</a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="mention-legal.html">Mentions légales</a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="condition-general-de-vente.html">Conditions générales de ventes</a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="plan-du-site.html">Plan du site</a>
+                <p><a href="#" onclick="window.print(); return false;">Imprimer cette page</a></p>
+            </div>
+        </div>
+        <div  class="footer-copyright c-choux-fleur">&copy;&nbsp;2018 Copyright :
+            <a href="index.html"> Silver</a>
+            <a href="index.html"><img src="img/logo-final-c.png" alt="logo" class="footer-img-logo"></a>
+        </div>
+    </div>
+    </footer>
+    <script src="javascript/menu.js"></script>
+    <script src="javascript/bloc_menu.js"></script>
+</body>
+</html>

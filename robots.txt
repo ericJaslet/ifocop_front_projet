@@ -1,0 +1,5 @@
+# robots.txt a été généré par outils-seo.info
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://www.boutique-silver.fr

@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CGV | Silver</title>
+
+    <meta name="description" content="Retrouver les conditions générales de ventes de Silver." />
+    <meta name="keywords" content="boutique,magasin,commerce,shop,shopping,vetements,vêtements,vetement,vêtement,look,ecommerce,@commerce,e-commerce,vente en ligne,mode,tendance,personal shopper,centre ville,paris,Ile de France,2ème arrondissement">
+
+    <!-- pour les réseaux sociaux -->
+    <meta property="og:site_name" content="Silver"/>
+    <meta property="og:title" content="Accueil Silver" />
+    <meta property="og:type" content="Accueil" />
+    <meta property="og:url" content="http://www.boutique-silver.fr" />
+    <meta property="og:image" content="http://www.boutique-silver.fr/img/logo-final-c.png" />
+    <meta property="og:description" content="Bienvenue chez silver. Découvrez les dernières tendances mode pour les femmes et les hommes, vêtements, chaussures et accessoires créés pour vous." />
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- pour protection contre le duplicate content dans le site -->
+    <link rel="canonical" href="https://www.boutique-silver.fr/index.html"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <!--=================================================================================================
+    =====================================================================================================
+
+                                        Header
+
+    =====================================================================================================
+    ==================================================================================================-->
+    <header>
+        <div class="container">       
+            <div class="row">              
+                <div class="header-left col-12 col-sm-4">
+                    
+                    <p class="d-md-none header-logo-lang txt-italic"><a href="#">Français</a> | <a href="#">English</a></p>
+                    <div class="clear"></div>
+
+                    <form method="get" class="header-form-rech">
+                        <input type="text" placeholder="  recherche"  required>
+                        <button type="submit" class="color2-btn color-btn-hover">OK</button>
+                    </form>
+
+                </div>
+                <div class="header-middle col-12 col-sm-4">
+                        <a href="index.html"><img src="img/nom1.png" alt="silver" class="img-marque"></a>
+                        <h1 class="h1-index">Silver</h1>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="langue">
+                        <p class="txt-right d-none d-md-block txt-italic"><a href="#">Français</a> | <a href="#">English</a></p>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="user-band">                      
+                        <a href="compte.html" class="mx-2"><img src="img/user.svg" alt="mon compte"></a>
+                        <a href="favoris.html" class="mx-2"><img src="img/heart.svg" alt="mes favories"></a>
+                        <a href="panier.html" class="mx-2"><img src="img/shopping_bag_H50px.png" alt="panier"></a>
+                        <a href="localisation.html" class="mx-2"><img src="img/map-marker-alt.svg" alt="boutique silver"></a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+            <nav>
+                <!-- menu responsive -->
+                <div class="m_div-respbar">
+                <div class="container-bar" onclick="button_transform(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+
+                <div id="myNav" class="overlay">
+                    <div class="overlay-content">
+                        <ul class="bmenu-niv1">
+                            <li>
+                                <div class="div-resp-search">
+                                    <form method="get" class="header-form-rech">
+                                        <input type="text" placeholder="  recherche" required>
+                                        <button type="submit" class="color-btn color-btn-hover">Go</button>
+                                    </form>
+                                </div>
+                            </li>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="gallery_produits.html">Nos produits</a></li>
+                            <li><a href="gallery_gammes.html">Toutes les gammes</a></li>
+                            <li><a href="">Hommes</a>
+                                <ul class="bmenu-niv2">
+                                    <li><a href="gallery_homme.html"> les gammes hommes</a></li>
+                                    <li><a href="gallery_homme_t-shirt.html">T-shirt, débardeur</a></li>
+                                    <li><a href="gallery_homme_chemise.html">Chemise</a></li>                               
+                                    <li><a href="gallery_homme_short.html">Short, bermuda</a></li>
+                                    <li><a href="gallery_homme_jean.html">Jean, pantalon</a></li>
+                                    <li><a href="gallery_homme_pull.html">Pull, sweat, gilet</a></li>
+                                    <li><a href="gallery_homme_manteau.html">Manteau, blouson</a></li>
+                                    <li><a href="gallery_homme_maillot.html">Maillot de bain</a></li>
+                                    <li><a href="gallery_homme_chaussures.html">Chaussures</a></li>
+                                    <li><a href="gallery_homme_bonnet.html">Bonnet</a></li>
+                                    <li><a href="gallery_homme_accessoires.html">Accessoires</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Femmes</a>
+                                <ul class="bmenu-niv2">
+                                    <li><a href="gallery_femme.html"> les gammes femme</a></li>
+                                    <li><a href="gallery_femme_maillot.html">Maillot de bain</a></li>
+                                    <li><a href="gallery_femme_robe.html">Robe, Jupe</a></li>
+                                    <li><a href="gallery_femme_t-shirt.html">T-shirt, top, débardeur</a></li>
+                                    <li><a href="gallery_femme_short.html">Short, pantacourt</a></li>
+                                    <li><a href="gallery_femme_pull.html">Pull, sweat, gilet</a></li>
+                                    <li><a href="gallery_femme_veste.html">Veste, manteau</a></li>
+                                    <li><a href="gallery_femme_jean.html">Jean</a></li>
+                                    <li><a href="gallery_femme_pantalon.html">Pantalon et Legging</a></li>
+                                    <li><a href="gallery_femme_chaussures.html">Chaussures</a></li>
+                                    <li><a href="gallery_femme_sac.html">Sac</a></li>
+                                    <li><a href="gallery_femme_accessoires.html">Accessoires</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="réservation.html">Réservation</a></li>
+                            <li><a href="avis.html">Avis</a></li>
+                            <li><a>Boutique</a>
+                                <ul class="bmenu-niv2">
+                                    <li><a href="qui.html">Qui sommes nous ?</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="recrutement.html">Recrutement</a></li>
+                                    <li><a href="Evènement.html">Evénements</a></li>
+                                    <li><a href="presse.html">Presse</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="actualites.html">Actualités</a></li>                   
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <!-- fin menu responsive -->
+                <div class="table">
+                    <ul class="menu-niv-1">
+                        <li>
+                            <a href="index.html">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="" id="nos_produits">Nos produits</a>
+                        <li>
+                            <a href="réservation.html">Réservation</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="avis.html">Avis</a>
+                        </li>
+                        <li>
+                            <a href="" id="boutique">Boutique</a>
+                        </li>
+                        <li>
+                            <a href="actualites.html">Actualités</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div class="nav-bloc container" id="bloc-nav">
+                        <ul class="menu_niv_2">
+                            <li><a href="gallery_gammes.html">toutes nos gammes</a></li>
+                            <li><a href="gallery_femme.html" id="select-femme">femme</a></li>
+                            <li><a href="gallery_homme.html" id="select-homme">homme</a></li>
+                            <li><a href="gallery_produits.html">Tous nos produits</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                        <div class="menu_niv_3" id="menu-div-3-femme">
+                            <div class="row">
+                                <div class="col-3">
+                                    <ul>
+                                        <li><a href="gallery_femme.html"> les gammes femme</a></li>
+                                        <li><a href="gallery_femme_maillot.html">Maillot de bain</a></li>
+                                        <li><a href="gallery_femme_robe.html">Robe, Jupe</a></li>
+                                        <li><a href="gallery_femme_t-shirt.html">T-shirt, top, débardeur</a></li>
+                                        <li><a href="gallery_femme_short.html">Short, pantacourt</a></li>
+                                        <li><a href="gallery_femme_pull.html">Pull, sweat, gilet</a></li>
+                                        <li><a href="gallery_femme_veste.html">Veste, manteau</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-3">
+                                    <ul>
+                                        <li><a href="gallery_femme_jean.html">Jean</a></li>
+                                        <li><a href="gallery_femme_pantalon.html">Pantalon et Legging</a></li>
+                                        <li><a href="gallery_femme_chaussures.html">Chaussures</a></li>
+                                        <li><a href="gallery_femme_sac.html">Sac</a></li>
+                                        <li><a href="gallery_femme_accessoires.html">Accessoires</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row m-div-img">
+                                        <div class="col-1"></div>
+                                        <div class="col-2">
+                                            <a href="article_femme_short_1.html">
+                                                <img src="img/femme/short/short_1/short-a-carreaux-vichy-noir-femme-wc-1.jpg" alt="short-a-carreaux-vichy-noir-femme-wc" class="img-fluid img-menu-bloc">
+                                            </a>
+                                            <p>short</p>
+                                            <p>9,99€</p>
+                                        </div>
+                                        <div class="col-2"></div>
+                                        <div class="col-2">
+                                            <a href="article_femme_short_2.html">
+                                                <img src="img/femme/short/short_2/short-en-denim-a-abrasion-double-stone-femme-1.jpg" alt="short-en-denim-a-abrasion-double-stone-femme-1" class="img-fluid img-menu-bloc">
+                                            </a>
+                                            <p>short</p>
+                                            <p>15,00€</p>
+                                        </div>
+                                        <div class="col-2"></div>
+                                        <div class="col-2">
+                                            <a href="article_femme_ceinture_2.html">
+                                                <img src="img/femme/ceinture/ceinture_1/ceinture-brodee-noir-femme-we-1.jpg" alt="ceinture-brodee-noir-femme-we-1" class="img-fluid img-menu-bloc">
+                                            </a>
+                                            <p>ceinture</p>
+                                            <p>12,00€</p>
+                                        </div>
+                                    </div>
+                                </div>                               
+                            </div>                           
+                        </div>
+                        <div class="menu_niv_3" id="menu-div-3-homme">
+                            <div class="row">
+                                <div class="col-3">
+                                    <ul>
+                                        <li><a href="gallery_homme.html"> les gammes hommes</a></li>
+                                        <li><a href="gallery_homme_t-shirt.html">T-shirt, débardeur</a></li>
+                                        <li><a href="gallery_homme_chemise.html">Chemise</a></li>                               
+                                        <li><a href="gallery_homme_short.html">Short, bermuda</a></li>
+                                        <li><a href="gallery_homme_jean.html">Jean, pantalon</a></li>
+                                        <li><a href="gallery_homme_pull.html">Pull, sweat, gilet</a></li>
+                                        <li><a href="gallery_homme_manteau.html">Manteau, blouson</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-3">
+                                    <ul>
+                                        <li><a href="gallery_homme_maillot.html">Maillot de bain</a></li>
+                                        <li><a href="gallery_homme_chaussures.html">Chaussures</a></li>
+                                        <li><a href="gallery_homme_bonnet.html">Bonnet</a></li>
+                                        <li><a href="gallery_homme_accessoires.html">Accessoires</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row m-div-img">
+                                        <div class="col-1"></div>
+                                        <div class="col-2">
+                                            <a href="article_homme_t-shirt_3blc.html">
+                                                <img src="img/homme/t-shirt/t-shirt_3/t-shirt-regular-uni-en-jersey-blanc-homme-1.jpg" alt="t-shirt-regular-uni-en-jersey-blanc-homme" class="img-fluid img-menu-bloc">
+                                            </a>
+                                            <p>T-shirt</p>
+                                            <p>6,00€</p>
+                                        </div>
+                                        <div class="col-2"></div>
+                                        <div class="col-2">
+                                            <a href="article_homme_chemise_2.html">
+                                                <img src="img/homme/chemise/chemise_2/chemise-regular-en-lin-et-coton-bleu-marine-homme-vy-1.jpg" alt="chemise-regular-en-lin-et-coton-bleu-marine-homme" class="img-fluid img-menu-bloc">
+                                            </a>
+                                            <p>chemise</p>
+                                            <p>10,00€</p>
+                                        </div>
+                                        <div class="col-2"></div>
+                                        <div class="col-2">
+                                            <a href="article_homme_jean_1.html">
+                                                <img src="img/homme/jean/jean_1/jean-skinny-destroy-effet-froisse-blanc-homme-wi-1.jpg" alt="img/homme/jean-skinny-destroy-effet-froisse-blanc-homme-wi-1" class="img-fluid img-menu-bloc">
+                                            </a>
+                                            <p>jean skinny</p>
+                                            <p>27,00€</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                  
+                    </div>
+                    <div class="nav-bloc2 container" id="bloc-nav2">
+                        <ul>
+                            <li><a href="qui.html">Qui sommes nous ?</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="recrutement.html">Recrutement</a></li>
+                            <li><a href="Evènement.html">Evénements</a></li>
+                            <li><a href="presse.html">Presse</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </header> 
+
+    <!--=================================================================================================
+    =====================================================================================================
+
+                                        corps
+
+    =====================================================================================================
+    ==================================================================================================-->
+    <main class="container m_mb-20">
+
+            <div class="path">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li> > Conditions générales de vente</li>
+                </ul>
+            </div>
+            <div class="div_ml">
+                <h1>Conditions générales de vente</h1>
+
+                <h3>Introduction</h3>
+
+                <p class="m_mb-20">Ce site est à vocation pédagogique et non commerciale.</p>
+
+                <p>Les présentes conditions générales de vente s’appliquent entre :</p>
+
+                <p>La société <strong>Silver</strong>, SAS au capital de 2 431 021 € dont le siège social est à Paris (75012), 1 rue de la rue, immatriculée au RCS de Lille Métropole sous le numéro XXX XXX XXX</p>
+
+                <p>Ci-après dénommée « <strong>Silver</strong> »</p>
+
+                <p>Et d’autre part toute personne physique effectuant un achat via le site Internet www.boutique-<strong>silver</strong>.fr</p>
+
+                <p>Ci-après dénommée « le client »</p>
+
+                <p>Le client déclare être juridiquement capable de conclure un contrat.
+                Le client s’interdit de procéder à l'achat des produits sur le présent site dans le seul but de les revendre.</p>
+
+                <hr>
+
+                <h3>Prix</h3>
+                <p>Les prix des produits proposés à la vente sur le site www.<strong>Silver</strong>.com sont exprimés en euros, TVA française comprise et sont valables uniquement sur le site. Les frais de préparation et de livraison sont en sus et à la charge du client, sauf condition contraire mentionnée sur le site. Voir la rubrique Livraison.
+                <br>
+                <strong>Silver</strong> se réserve le droit de modifier le prix de ses produits à tout moment et sans information préalable du client en cas notamment d’erreur manifeste (typographie ou impression) ou de modification du taux de TVA.
+                Les produits commandés sont facturés au client sur la base du tarif en vigueur sur le site au moment de la validation de la commande par le client.</p>
+
+                <hr>
+
+                <h3>Commande</h3>
+
+                <h4>Création d’un compte Silver</h4>
+
+                <p>La création d’un compte Silver est obligatoire pour effectuer un achat sur le site www.<strong>Silver</strong>.com.</p>
+
+                <h4>Code avantage</h4>
+
+                <p>Le client qui bénéficie d’un code avantage est invité à le saisir après son identification et à tout moment lors de la constitution de son panier.</p>
+
+                <h4>Etape de passation de la commande</h4>
+
+                <p>Toutes les étapes de la vente sont clairement identifiées sur le site conformément aux dispositions de l’article 1369-1 du Code civil. En application de ces dispositions, le client a la possibilité de vérifier le détail de sa commande et son prix total et de corriger d’éventuelles erreurs avant de valider définitivement sa commande.
+                <br>
+                La commande n’est définitivement enregistrée qu’après validation par le client de son accord de paiement et acceptation par la banque de la transaction. Le récapitulatif de la commande du client est disponible en version imprimable.
+                <br>
+                Dès sa commande enregistrée, le client reçoit un courrier électronique de confirmation reprenant les éléments essentiels de sa commande et notamment, le numéro de commande, la liste des produits commandés, le détail du prix.</p>
+
+                <p>L’ensemble des données fournies par le client lors du processus de commande et la confirmation enregistrée de cette commande valent preuve de la transaction.
+                <br>
+                Jules se réserve le droit de refuser toute commande d’un client avec lequel il existerait un litige relatif au paiement d’une commande antérieure tant que ce litige n’est pas résolu.</p>
+                
+                <h4>Paiement en 1 click</h4>
+
+                <p>Les clients ayant préalablement enregistré leur carte bancaire et ayant renseigné dans leur compte client, une adresse de livraison en France Métropolitaine pourront accéder au paiement en 1 click.
+                <br>
+                Ce service facilite la passation de la commande en utilisant les informations préalablement renseignées par le client.
+                <br>
+                Ce service propose uniquement la livraison à domicile par colissimo.
+                <br>
+                Les tarifs et délais de livraison sont identiques à ceux indiqués ci-dessous à l'article "Livraison en France".</p>
+
+                <hr>
+
+                <h3>Livraison</h3>
+
+                <p>La zone de livraison est limitée à la France métropolitaine.
+                <br>
+                Les délais de livraison indiqués ci-dessous sont susceptibles d’être ajustés en fonction de la période à laquelle le client passe commande (soldes…) C’est pourquoi, lors de la validation de sa commande, le client sera informé de la date limite à laquelle sa commande sera livrée.
+                <br>
+                Les frais de livraison correspondent à un montant forfaitaire qui dépend du mode de livraison choisi par le client.
+                <br>
+                Trois modes de livraison sont proposés au client :</p>
+
+                <h4>Livraison en France</h4>
+
+                <h5>Livraison à domicile</h5>
+
+                <p>3,95€ TTC
+                <br>
+                La commande est livrée par la Poste en Colissimo Access à l’adresse de livraison saisie par le client dans un délai de 4 jours ouvrés à compter de la confirmation de la commande.
+                Le client est informé de l’expédition de son colis par courrier électronique.</p>
+
+                <h5>Livraison Mondial Relay</h5>
+
+                <p>3,45€ TTC
+                <br>
+                Le client a la possibilité de retirer sa commande dans l’un des 4300 points de vente Mondial Relay, situés en France métropolitaine, Corse comprise. En choisissant le mode de livraison en relais, le client déclare avoir pris connaissance et adhéré sans réserve aux conditions générales de vente de Mondial Relay.
+                <br>
+                Le délai de livraison en relais est de 5 jours ouvrés à compter de la confirmation de la commande.
+                <br>
+                Le client est informé par courrier électronique de l’arrivée de son colis en relais ; il dispose d’un délai de 10 jours ouvrés à compter de la date d’envoi du courrier électronique pour venir retirer sa commande, sur présentation d’une pièce d’identité en vigueur.
+                <br>
+                A l’expiration du délai, le colis sera considéré comme abandonné et ne pourra plus faire l’objet d’aucune réclamation par le client. <strong>Silver</strong> remboursera le client du montant des produits commandés sur la base du prix facturé, hors frais de livraison.</p>
+
+                <h5>Livraison en magasin</h5>
+
+                <p>Les frais de préparation et de livraison sont offerts.
+                <br>
+                Le client a la possibilité de retirer sa commande dans l’un des magasins <strong>Silver</strong> situés en France métropolitaine.
+                <br>
+                La commande du client est disponible en magasin dans un délai de 4 jours ouvrés à compter de la confirmation de la commande.
+                <br>
+                Le client est informé par courrier électronique de la réception de son colis en magasin. Il dispose d’un délai de 10 jours ouvrés à compter de la date d’envoi du courrier électronique pour venir retirer commande, sur présentation d’une pièce d’identité en vigueur.
+                <br>
+                A l’expiration du délai, le colis sera considéré comme abandonné et ne pourra plus faire l’objet d’aucune réclamation par le client. <strong>Silver</strong> remboursera le client du montant des produits commandés sur la base du prix facturé.</p>
+
+                <h5>Livraison Chronopost</h5>
+
+                <p>9,95€ TTC
+                <br>
+                La commande est livrée par la Poste avec Chronopost à l’adresse de livraison saisie par le client dans un délai de 2 jours ouvrés à compter de la confirmation de la commande.
+                Le client est informé de l’expédition de son colis par courrier électronique.</p>
+
+                <hr>
+
+                <h3>Rétractation et retours</h3>
+
+                <h4>Droit de rétractation légal</h4>
+
+                <p>Conformément à l’article L121-21 du code de la consommation, le client bénéficie d’un délai légal de rétractation de 14 jours à compter de la réception de sa commande.
+                <br>
+                Le client peut notifier, par courrier à <strong>Silver</strong>, son intention d’exercer ce droit en précisant ses nom, prénom, adresse, numéro de commande, date de passation de la commande, date de réception de la commande et référence de l’article concerné par la rétractation.
+                Le client bénéficie alors d’un délai de 14 jours à compter de l’envoi de ce courrier pour retourner sa commande (cf article Retours).Le client peut également utiliser le modèle de formulaire de rétractation (reproduit à la suite des présentes conditions générales de vente) mais ce n’est pas obligatoire.<strong>Silver</strong> remboursera le client dans un délai de 14 jours à compter de la réception de la commande ou de la preuve de retour de celle-ci (cf article Remboursement).</p>
+
+                <h4>Retours</h4>
+
+                <p><strong>Silver</strong> permet à ses clients de retourner les articles qui ne leur conviendraient pas dans un délai de 30 jours à compter de la date de réception de la commande (ce délai inclut le délai de rétractation légal). Pour des raisons d’hygiène, les articles tels que les sous-vêtements, les chaussettes ou encore les boucles d’oreille ne seront ni repris ni échangés même dans le cadre d’une rétractation légale. De même, les produits portés, endommagés, tachés, ne seront pas repris ni remboursés par <strong>Silver</strong>. Le service client en informera le client par e-mail. Il aura alors 30 jours pour demander à <strong>Silver</strong> la réexpédition de son colis à ses frais.</p>
+
+                <p>Les modes de retours proposés au client</p>
+
+                <h5>Par la Poste</h5>
+                <p>Le client peut demander le remboursement d’un produit en le retournant à ses frais dans un colis scellé l’adresse suivante :</p>
+
+                <p>1 rue de la rue
+                <br>
+                75012 Paris - France
+                <br>
+                Tél. : +33 (0)1 01 01 01 01</p>
+
+                <p>Pour assurer la livraison du colis, <strong>Silver</strong> recommande au client de retourner son produit en Colissimo Suivi (La Poste).</p>
+
+                <h5>En point Mondial Relay</h5>
+                <p>Le client peut choisir de retourner gratuitement un produit en le déposant dans l’un des points de vente du réseau MONDIAL RELAY en France Métropolitaine.
+                <br>
+                Le client devra joindre le bon de retour complété au colis.</p>
+
+                <h5>En magasin</h5>
+                <p>Le client peut se rendre dans l’un des magasins Silver de France métropolitaine ou de Belgique selon le pays de livraison de sa commande afin de retourner sa commande. A noter que le client ne pourra pas obtenir le remboursement de sa commande directement en magasin. Voir article Remboursement.</p>
+
+                <h5>L'échange</h5>
+                <p>L’échange d’un article est possible dans les magasins Silver de France Métropolitaine et de Belgique selon le pays de livraison de la commande.
+                <br>
+                L’échange est gratuit dès lors qu’il porte sur un article proposé au même prix que l’article retourné.
+                <br>
+                En revanche, si le prix du nouveau produit choisi par le client est inférieur au prix du produit retourné, la différence sera remboursée au client au choix de ce dernier sur sa carte bancaire ou en espèces.
+                <br>
+                Si le prix du nouveau produit est supérieur au prix du produit retourné, le client règlera la différence par le mode de paiement de son choix accepté en magasin.</p>
+
+                <hr>
+
+                <h3>Remboursements</h3>
+                <p>Le client sera remboursé sur le moyen de paiement utilisé lors de la commande, sur la base du prix du produit facturé figurant sur la récapitulatif de la commande et des frais de préparation et de livraison effectivement payé par le client.
+                <br>
+                Aucun remboursement ne s’effectuera en magasin sauf dans l’hypothèse d’un échange pour un produit dont le prix est inférieur au produit retourné.
+                <br>
+                Le client sera remboursé 7 jours à compter de la réception du colis par <strong>Silver</strong>.
+                <br>
+                Les commandes cadeau seront remboursées dans les mêmes conditions sur le compte du client titulaire de la carte bancaire ayant servi à la commande. Les frais d’option cadeau seront également remboursés au client.
+                <br>
+                Les commandes qui ont fait l’objet d’un paiement par carte cadeau illicado seront remboursées par l’envoi d’un nouvelle carte cadeau <strong>Silver</strong> d’un montant équivalent. Si le client a complété son achat par un paiement en carte bancaire, celle-ci sera re créditée à hauteur du montant payé par carte bancaire.
+                <br>
+                Les frais de préparation et de livraison, et le cas échéant, les frais d’option cadeau resteront à la charge du client si le retour ne porte que sur une partie de la commande.</p>
+
+                <hr>
+
+                <h3>Garantie</h3>
+
+                <p>Tous les produits vendus sur le site www.silver.fr bénéficient des garanties légales de conformité et des vices cachés.</p>
+
+                <p>Article L211-4 du Code de la consommation
+                <br>
+                « Le vendeur est tenu de livrer un bien conforme au contrat et répond des défauts de conformité existant lors de la délivrance.
+                <br>
+                Il répond également des défauts de conformité résultant de l’emballage, des instructions de montage ou de l’installation lorsque celle-ci a été mise à sa charge par le contrat ou a été réalisée sous sa responsabilité. »</p>
+
+                <p>Article L211-5 du Code de la consommation
+                <br>
+                « Pour être conforme au contrat, le bien doit :
+                <br>
+                1° Etre propre à l’usage habituellement attendu d’un bien semblable et, le cas échéant :
+                <br>
+                - Correspondre à la description donnée par le vendeur et posséder les qualités que celui-ci a présentées à l’acheteur sous forme d’échantillon ou de modèle;
+                <br>
+                - Présenter les qualités qu’un acheteur peut légitiment attendre eu égard aux déclarations publiques faites par le vendeur, par le producteur ou par son représentant, notamment dans la publicité ou l’étiquetage;
+                <br>
+                2° Ou présenter les caractéristiques définies d’un commun accord par les parties ou être propre à tout usage spécial recherché par l’acheteur, porté à la connaissance du vendeur et que ce dernier a accepté. »</p>
+
+                <p>Article L211-12 du Code de la consommation
+                <br>
+                « L’action résultant du défaut de conformité se prescrit par deux ans à compter de la délivrance du bien ».</p>
+
+                <p>Article 1641 du Code civil
+                <br>
+                « Le vendeur est tenu de la garantie à raison des défauts cachés de la chose vendue qui la rendent impropre à l’usage auquel on la destine, ou qui diminuent tellement cet usage, que l’acheteur ne l’aurait pas acquise, ou n’en n’aurait donné qu’un moindre prix, s’il les avait connus. »</p>
+
+                <p>Article 1648 du Code civil
+                <br>
+                « L’action résultant des vices rédhibitoires doit être intentée par l’acquéreur dans un délai de deux ans à compter de la découverte du vice »</p>
+
+                <p>Silver s’engage à rembourser le client ou échanger (uniquement en magasin) tout produit apparemment défectueux, abimé ou endommagé dans un délai de 6 mois suivant la date de réception ou de retrait de la commande par le client.</p>
+                 
+                <hr>
+
+                <h3>Objet</h3>
+
+                <p>Les présentes conditions générales régissent les relations contractuelles entre Silver et le client et les conditions applicables à tout achat effectué par le biais du site marchand www.silver.com.
+                <br>
+                Le client déclare avoir pris connaissance des présentes conditions générales de vente. Le fait de passer commande sur le site www.silver.com implique l’adhésion entière et sans réserve du client aux présentes conditions générales de vente. Les présentes conditions générales de vente prévaudront sur toute autre condition générale ou particulière non expressément agréées par Silver.
+                <br>
+                Silver se réserve la possibilité de modifier ses conditions générales de vente à tout moment. Dans ce cas, les modifications seront applicables à compter de leur mise en ligne. Chaque commande effectuée sur le Site est régie par les conditions générales applicables à la date de la commande.</p>
+
+                <hr>
+
+                <h3>Capacités et destinations</h3>
+
+                <p>Le client déclare être juridiquement capable de conclure un contrat et être âgé de plus de 18 ans.
+                <br>
+                La passation de commande par des personnes mineures implique qu’elles aient préalablement obtenu l’accord de leurs représentants légaux.
+                <br>
+                Le client s’interdit de procéder à l’achat de produits sur le site dans le but de les revendre. Silver se réserve le droit de refuser une commande dont les quantités seraient manifestement inhabituelles pour un usage personnel.</p>
+
+                <hr>
+
+                <h3>Litiges</h3>
+
+                <p>Les présentes conditions générales de vente en ligne sont soumises à la loi française. Tous litiges qui ne pourraient être réglés à l’amiable seront portés devant les tribunaux compétents du domicile du défendeur ou du lieu de livraison ou du ressort du siège social de Silver.</p>
+
+                <p>Conformément aux dispositions du Code de la consommation concernant le règlement amiable des litiges, Silver adhère au Service du Médiateur du e-commerce de la FEVAD (Fédération du e-commerce et de la vente à distance) dont les coordonnées sont les suivantes : 60 rue de la Boétie – 75008 Paris. Après démarche préalable écrite des consommateurs vis-à-vis de JULES, le Service du Médiateur peut être saisi pour tout litige de consommation dont le règlement n’aurait pas abouti. Les modalités de saisine du Médiateur sont disponibles à l’adresse suivante : http://www.mediateurfevad.fr </p>
+
+                <hr>
+
+                <h3>Propriété Intellectuelle</h3>
+
+                <p>Tous les éléments du site www.silver.fr sont et restent la propriété intellectuelle et exclusive de Silver.
+                <br>
+                Le client n’est pas autorisé à reproduire, exploiter, diffuser ou utiliser à quelque titre que ce soit, même partiellement, des éléments du site qu’ils soient logiciels, visuels ou sonores.</p>
+
+                <p>Droit d’auteur
+                <br>
+                Les textes, images, dessins et le lay out ainsi que la charte graphique du site www.silver.fr sont protégés par le droit de la propriété intellectuelle.
+                <br>
+                Il est interdit de copier, extraire, diffuser, modifier ou d’adapter le contenu du présent site. Le téléchargement ainsi que l’impression du texte, images et éléments graphiques sont autorisés au seul usage privé et non commercial.
+                <br>
+                La reproduction de dessins, images, documents sonores, séquences vidéo et textes dans d’autres publications électroniques ou imprimées nécessite le consentement écrit préalable de Silver. Le défaut d’autorisation est sanctionné par le délit de contrefaçon.</p>
+
+                <p>Marques
+                <br>
+                Les marques et logos figurant sur le site sont des marques protégées et déposées.
+                Toute reproduction totale ou partielle de ces marques et/ou logos, effectuée à partir des éléments du site sans l’autorisation expresse de Silver est constitutif de contrefaçon sanctionnée par les articles L335-2 et suivants du Code de la propriété intellectuelle.</p>
+
+                <p>Liens hypertextes
+                <br>
+                Tout lien simple ou par hypertexte est strictement interdit sauf accord exprès et écrit de Jules.</p>
+
+                <hr>
+
+                <h3>Transfert de propriétés</h3>
+
+                <p>Le transfert de propriété des produits au profit du client ne sera réalisé qu’après complet paiement du prix par ce dernier, et ce quelque soit la date de livraison desdits produits. En revanche, le transfert des risques de perte et de détérioration des produits sera réalisé dès livraison et réception des produits par le client.</p>
+
+                <hr>
+
+                <h3>Responsabilités</h3>
+
+                <p>La responsabilité de Silver ne pourra être engagée :
+                <br>
+                - Pour l’inexécution du contrat en cas de rupture de stock ou indisponibilité du produit du fait d’un cas de force majeure;
+                <br>
+                - De tous dommages résultant de l’utilisation du réseau internet tel que perte de données, intrusion, virus, rupture de service, ou autres problèmes involontaires;
+                <br>
+                - Du contenu des sites sur lesquels des liens hypertextes peuvent renvoyer à partir de son propre site. </p>
+
+                <hr>
+
+                <h3>Archivage</h3>
+
+                <p>Conformément aux dispositions de l’article 1348 du code civil, Silver procède à l’archivage des bons de commandes et des factures sur un support fiable et durable constituant une copie fidèle.
+                <br>
+                Conformément aux dispositions de l’article 132-4 du code de consommation et du décret du 16 février 2005, les commandes d’un montant supérieur à 120 € sont archivées et conservées par Silver pendant 10 ans.
+                <br>
+                Les registres informatisés de Silver seront considérés par Silver et le client comme preuve des communications, commandes, paiements et transactions intervenues entre Silver et le client.</p>
+
+                <hr>
+
+                <h3 id="donnees-personnel">DONNEES A CARACTERE PERSONNEL</h3>
+
+                Silver accorde une importance fondamentale à la vie privée de tout un chacun. En conséquence, les traitements effectués par Silver sont strictement limités et encadrés par le présent Article. Sauf disposition contraire des CGV.
+
+                <h4>Types de données pouvant être collectées</h4>
+
+                <p>Les données à caractère personnel (« Donnée(s) Personnelle(s) ») pouvant être collectées par Silver sont notamment les suivantes :
+                <br>
+                - Nom;
+                <br>
+                - Prénom;
+                <br>
+                - Date de naissance;
+                <br>
+                - Adresse du domicile;
+                <br>
+                - Code postal;
+                <br>
+                - Ville;
+                <br>
+                - Pays;
+                <br>
+                - Numéro de téléphone;
+                <br>
+                - Données bancaires;
+                <br>
+                - Adresse email.</p>
+
+                <p>Silver informera le Client de manière claire et sans ambigüité des Données Personnelles dont la communication est obligatoire.</p>
+
+                <p>A toutes fins utiles, Silver attire l’attention du Client sur le fait que les Données Personnelles communiquées dans le cadre d’une commande sont indispensables au traitement de cette commande. Par conséquent, toute Donnée Personnelle erronée ou tout refus de communication de Donnée Personnelle pourra conduire Silver à ne pas confirmer la commande.</p>
+                <p>Pour toute demande complémentaire vous pouvez contacter notre  Data Protection Officer :
+                <br>
+                <a href="mailto:dupond-roland@boutique-silver.fr">dupond-roland@boutique-silver.fr</a></p>
+
+                <hr>
+
+                <h3>Cookies</h3>
+
+                <p>Un cookie est un fichier informatique, stocké sur le disque dur de l’ordinateur de l’Internaute et qui permet de signaler qu’il a visité le Site Internet.</p>
+
+                <p>Afin d’offrir à l’Internaute et au Client une expérience du Site et des services personnalisés, Silver a recours à différents types de cookies :</p>                
+
+                <p>Les cookies de session permettent à Silver de mémoriser le passage de l’Internaute sur le Site, afin de personnaliser l’expérience de l’Internaute (notamment en conservant les informations déjà communiquées par l’Internaute – ce sera le cas par exemple lorsque Silver conservera dans le panier de l’Internaute un article préalablement sélectionné par l’Internaute à l’occasion d’une précédente consultation du Site);
+                <br>
+                Les cookies « tiers » sont des cookies présents sur le Site Silver et utilisés par des tiers.
+                <br>
+                Les cookies « analytiques » permettent à Silver d’identifier le comportement de l’Internaute sur Internet (en analysant notamment le site duquel arrive l’Internaute).</p>
+
+                <p>L’utilisation de cookies est subordonnée au recueil par Silver de l’accord préalable de l’Internaute. L’Internaute peut refuser le dépôt des cookies sur son terminal. Le cas échéant, Silver ne pourra plus lui assurer le bénéfice d’une expérience personnalisée sur le Site. Pour s’opposer au dépôt de cookies tiers, l’Internaute doit modifier les paramètres de son navigateur (Google Chrome, Firefox, Internet Explorer), selon la procédure suivante :</p>
+
+                <p>Google Chrome :
+                <br>
+                Menu -> Paramètres.
+                <br>
+                L’Internaute doit cliquer sur le bouton « Paramètres avancés » situé en bas de la page.
+                <br>
+                Dans le menu déroulant, l’Internaute doit cliquer sur le bouton « Paramètres du contenu », puis « Cookies ». L’Internaute doit activer l’option « Bloquer les cookies tiers »</p>
+                
+                <p>Firefox :
+                <br>
+                Menu -> Options -> Vie privée -> Historique.
+                <br>
+                L’Internaute doit modifier les « règles de conservation » en sélectionnant l’option « utiliser les paramètres personnalisés pour l’historique ». L’Internaute doit décocher la case « Accepter les cookies ».</p>
+
+                <p>Internet explorer :
+                <br>
+                Menu -> Options Internet -> Confidentialité.
+                <br>
+                L’Internaute doit cliquer sur le bouton « Avancé » afin d’accéder aux paramètres de confidentialité avancés de son navigateur. Il doit cocher la case « Ignorer la gestion automatique des cookies » et cocher la case « Refuser » situé sous la catégorie « cookies tierce partie ». L’Internaute doit confirmer son choix en cliquant sur le bouton « OK ».</p>
+             
+                <p>En tout état de cause, les cookies sont conservés pendant une durée maximale de 13 mois suivant la date à laquelle l’Internaute a consenti au dépôt par Silver de cookies sur son terminal. Passé ce délai, Silver devra à nouveau recueillir le consentement de l’Internaute.</p>
+                
+                <h3>Protections des données à caractère personnelles</h3>
+
+                <h4>Collecte de données à caractère personnel</h4>
+                
+                <p>Silver collecte des informations (« Données Personnelles ») concernant l’Internaute telles que les nom, prénom, adresse email, âge.</p>
+                
+                <p>Les Données Personnelles sont collectées lors de l’inscription de l’Internaute à la newsletter ou lors de la création par l’Internaute d’un compte client, à des fins de gestion administrative et commerciale. Les Données Personnelles dont le recueil est obligatoire sont indiquées par un champ apparaissant en rouge lorsque ces Données Personnelles n’ont pas été communiquées par l’Internaute. Dans l’hypothèse où l’Internaute refuserait de communiquer à Silver des Données Personnelles dont le recueil est obligatoire, Silverne pourra pas fournir à l’Internaute le service concerné.</p>
+
+                <p>La gestion commerciale inclut, avec l’autorisation préalable de l’Internaute, l'envoi d'informations et d'offres promotionnelles à des fins marketing. L’Internaute peut s’opposer à l’utilisation à des fins marketing de ses données à tout moment, notamment en suivant les modalités définies à l’Article 8.5 des présentes.</p>
+
+                <h4>Destinataire des Données Personnelles</h4>
+
+                <p>destinataires des Données Personnelles sont Silver, les partenaires, les sociétés extérieures ou les filiales de Silver, les organismes, les auxiliaires de justice et les officiers ministériels, dans le cadre de leur mission de recouvrement de créances, ainsi que l'organisme en charge de la gestion de la liste d'opposition au démarchage téléphonique.</p>
+                 
+                <h4>Conservation des Données Personnelles</h4>
+                 
+                <p>Les Données Personnelles sont conservées pendant une durée ne pouvant excéder la durée strictement nécessaire à la gestion de la relation commerciale.</p>
+                
+                <h4>Sécurité et confidentialité</h4>
+                 
+                <p>Les Données Personnelles sont strictement confidentielles. Elles ne peuvent être communiquées à des tiers autres que ceux mentionnés à l’Article 8.2 sans l’autorisation préalable de l’Internaute.</p>
+                
+                <p>Silver, en sa qualité de responsable de traitement, prend toutes précautions utiles pour préserver la sécurité des Données Personnelles et, notamment, empêcher qu'elles soient déformées ou endommagées ou que des tiers non autorisés y aient accès.</p>
+                
+                <h4>Droit d’accès, d’opposition, de rectification et de suppression des Données Personnelles</h4>
+
+                <p>Conformément à  la loi °78-17 du 6 janvier 1978 modifiée relative à l’informatique, aux fichiers et aux libertés, l’Internaute dispose d’un droit d’accès, d’opposition, de rectification et de suppression de ses Données.</p>
+                
+                <p>Ces droits peuvent être exercés à tout moment en contactant silver :
+                 
+                -    Par email à l’adresse suivante : cnil@silver.com
+
+                -    Par courrier à l’adresse suivante : Silver – Cnil, 1, rue de la rue 75012 Paris
+
+                Le cas échéant, la suppression ou la rectification des Données Personnelles interviendra dans les meilleurs délais.</p>
+                
+                <h4>Sort des Données Personnelles post-mortem</h4>
+                 
+                <p>Conformément à l’article 40-1-II de la loi n°78-17 du 6 janvier 1978 modifiée relative à l’informatique, aux fichiers et aux libertés, dite loi « informatique et libertés », l’Internaute peut transmettre à Silver des directives relatives à la conservation, à l’effacement et à la communication de ses données à caractère personnel après son décès.</p>
+
+                <hr>
+
+                <h3>Caractéristiques des biens</h3>
+
+                <p>Les produits sont décrits et reproduits par Silver avec la plus grande exactitude possible. Toutefois, Silver attire l’attention du client sur le fait que les photographies ne peuvent assurer une similitude parfaite avec le produit proposé à la vente, notamment en ce qui concerne les couleurs.
+                <br>
+                Les différences peuvent résulter de la qualité couleur des photographies, de la difficulté de faire apparaître sur l’écran le rendu des matières ou encore, sans toutefois être exhaustif, l’adaptation technique. Ces différences ne pourront pas être interprétées comme des défauts de conformité et entrainer l’annulation de la vente.
+                En cas d’erreur manifeste ou omission non significative entre les caractéristiques du produit et sa représentation et/ou description, Silver ne saurait voir sa responsabilité engagée.</p>
+
+                <p>Les offres des produits et les prix figurant sur le site sont valables tant qu’ils figurent sur le site, dans la limite des stocks disponibles.
+                <br>
+                En cas d’indisponibilité d’un produit, Silvers’engage à en informer le client dans les plus brefs délais par courrier électronique ou par téléphone et à lui indiquer, le cas échéant, le délai d’attente estimé pour la livraison du produit.
+                <br>
+                Le client pourra confirmer sa commande ou demander le remboursement du produit sur la base du prix facturé.</p>
+
+                <p>Les frais de préparation et de livraison seront remboursés au client si ce dernier confirme l’annulation de la totalité de sa commande.
+                <br>
+                Les frais de préparation et de livraison resteront à la charge du client si ce dernier confirme la livraison d’un ou plusieurs produits disponibles faisant partie de la même commande.</p>
+            </div>            
+        </main> <!-- Fin du container global -->
+    <!--=================================================================================================
+    =====================================================================================================
+
+                                        Footer
+
+    =====================================================================================================
+    ==================================================================================================-->
+    <footer class="m_mt-15">
+        <div class="container">
+        <div class="footer-floor-1">
+            <p>Follow us !</p>
+            <div>
+                <a href="https://fr-fr.facebook.com/"><img src="img/facebook.svg" alt="facebook"></a>
+                <a href="https://twitter.com/?lang=fr"><img src="img/twitter-square.svg" alt="twitter"></a>
+                <a href="https://plus.google.com/discover"><img src="img/google-plus-square.svg" alt="google-plus"></a>
+                <a href="https://www.youtube.com/?gl=FR&hl=fr"><img src="img/youtube-square.svg" alt="youtube"></a>
+                <a href="https://www.instagram.com/?hl=fr"><img src="img/instagram.svg" alt="instagram"></a>
+                <a href="https://www.pinterest.fr"><img src="img/pinterest-square.svg" alt="pinterest"></a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-floor-2">
+            <h2 class="txt-center">S'incrire à notre newletter</h2>
+            <p class="txt-center">Recevez des informations hebdomadaires sur : les nouveaux arrivages, les dernières tendances, les évènements, et plus encore avec silver.</p>
+            <div class="div-footer-form mx-auto">
+                <form method="get">
+                    <input type="text" placeholder="votre @mail" class="m_form mx-auto" name="email-news">
+                    <button type="submit" class="btn2 mx-auto m_mt-20 pointer color-btn-hover">OK</button>
+                </form>
+            </div>
+        </div>
+        <hr>      
+        <div class="row footer-floor-3">                      
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div>
+                    <h5>Contacter Silver</h5>
+                    <p>01 01 01 01 01</p>
+                    <p>(appel gratuit)</p>
+                    <p>Nous répondons à vos questions du lundi au vendredi de 9h00 à19h00 et le samedi de 10h à 19h</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div>
+                    <h5>A propos de Silver</h5>
+                    <ul>
+                        <li><a href="la-marque.html">La marque</a></li>
+                        <li><a href="recrutement.html">Le recrutement</a></li>
+                        <li><a href="presse.html">La presse</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div>
+                    <h5>Services de Silver</h5>
+                    <ul>
+                        <li><a href="compte.html">Suivi de commande</a></li>
+                        <li><a href="réservation.html">Réservation</a></li>
+                        <li><a href="moyen-de-paiement.html">Moyen de paiement</a></li>
+                        <li><a href="newsletter.html">S'inscrire à notre newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div>
+                    <img src="img/map-marker-alt.svg" alt="localisation" class="m_h-40 img-local-float">
+                    <h5>Vote magasin Silver</h5>
+                    <p class="m_mt-20">Localiser votre magasin le plus proche de chez vous.</p>
+                    <a href="localisation.html" class="m_ml-20">Localiser</a>
+                </div>  
+            </div>
+        </div>
+        <hr>
+        <div class="footer-floor-4">
+            <h5>Paiement sécurisé</h5>
+            <a href="moyen-de-paiement.html">
+                <div>
+                    <img src="img/credit-card.svg" alt="carte de credit">
+                    <img src="img/cc-visa.svg" alt="carte visa">
+                    <img src="img/cc-mastercard.svg" alt="mastercard">
+                    <img src="img/cc-amex.svg" alt="carte american express">
+                    <img src="img/cc-paypal.svg" alt="pay amazone">
+                    <img src="img/cc-amazon-pay.svg" alt="pay amazone">
+                </div>
+            </a>
+        </div>
+        <hr>
+        <div class="row">         
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="condition-general-de-vente.html#donnees-personnel">Données personnelles</a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="mention-legal.html">Mentions légales</a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="condition-general-de-vente.html">Conditions générales de ventes</a>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="plan-du-site.html">Plan du site</a>
+                <p><a href="#" onclick="window.print(); return false;">Imprimer cette page</a></p>
+            </div>
+        </div>
+        <div  class="footer-copyright c-choux-fleur">&copy;&nbsp;2018 Copyright :
+            <a href="index.html"> Silver</a>
+            <a href="index.html"><img src="img/logo-final-c.png" alt="logo" class="footer-img-logo"></a>
+        </div>
+    </div>
+    </footer>
+    <script src="javascript/menu.js"></script>
+    <script src="javascript/bloc_menu.js"></script>
+</body>
+</html>
